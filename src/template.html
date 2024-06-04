@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Notes App</title>
+  </head>
+  <body>
+    <app-header></app-header>
+    <div id="loadingIndicator" class="loading-indicator"></div>
+    <main>
+      <note-form></note-form>
+      <div>
+        <input type="text" id="searchInput" placeholder="Search notes..." />
+        <button id="archiveButton">ARCHIVE</button>
+      </div>
+
+      <div id="noteList"></div>
+      <div id="archivedNoteList" style="display: none"></div>
+    </main>
+    <footer>
+      <p>Created By Hafiz Ilhami @Dicoding 2024</p>
+    </footer>
+  </body>
+</html>
