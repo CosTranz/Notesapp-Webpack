@@ -1,4 +1,4 @@
-# Project Title
+# Notes App
 
 Brief project description.
 
@@ -49,10 +49,6 @@ To start the server in development mode with hot-reloading:
 
 - `npm run lint`: Run linter to check for code quality issues.
 - `npm test`: Run tests.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
